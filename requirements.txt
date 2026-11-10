@@ -1,0 +1,10 @@
+numpy
+scipy
+networkx
+trimesh==4.5.3
+mujoco==3.3.0
+lxml
+yourdfpy
+pybullet
+sapien==3.0.3
+pillow

@@ -1,0 +1,71 @@
+{
+  "repository": "https://github.com/linker-bot/linkerhand-urdf",
+  "commit": "49f26021b0a91ff5c33150df22970c07bb548672",
+  "license": "Apache-2.0",
+  "copyright": "Copyright 2025 LinkerHand,Ltd.",
+  "note": "LinkerHand's G20 uses the L25 geometry: the G20 URDF and meshes delivered with a G20 station match L25/ at this commit byte for byte, apart from the robot name.",
+  "hands": {
+    "left": {
+      "urdf": "L25/left/linkerhand_l25_left.urdf",
+      "urdf_sha256": "0f6a8d2254a79e14abb5ce684ff96540c42e323e51eb2c438eaa71543c3d924a",
+      "meshes": "L25/left/meshes",
+      "mesh_sha256": {
+        "hand_base_link.STL": "f5fa64265908b92a132e18fff27dc212ec21ba4872806386846374d5c91fc70a",
+        "index_distal.STL": "130639135efbb5cd2773c18b481fcea45afe3bfd5dc8279a28a18a6b518779db",
+        "index_metacarpals.STL": "60bc3fc552cbdc4a53fbde3e11a06fc8b0b52a0ee6ea8b730b481a6eb54cfe92",
+        "index_middle.STL": "b3e46d945996e52bf0758b80f7aa1c2b99bca503b4c5b3c350e6850f78b05152",
+        "index_proximal.STL": "5a561d159861170e0bc91d6a4ecb634611bcc497bb2e60440d829e5ae0b9b7f7",
+        "middle_distal.STL": "a6143d000a38c7b60231b55b9e209161c7726a0410f5a7e5c48c0f41f067a006",
+        "middle_metacarpals.STL": "592ce620ebba1e75ce109cf70654dc8dc2d9bb41315b6dfc902b3ed3c703f43a",
+        "middle_middle.STL": "09b1b9a5bf9017d86dc543a214d263acc32c2ed4c3a474116ccdb8ab163cce89",
+        "middle_proximal.STL": "115d5c2027a656d6765339a477effc251a6fb9cd26dfc56474e6b63fac64aa43",
+        "pinky_distal.STL": "2d31ac67d0c2573758f0da2de4c3b773494a262845cc63659f2816bfd1fda10a",
+        "pinky_metacarpals.STL": "95a7614a7495032fdec6d5bf39df04a5fec85fbe1032ea8ffad5e09e59fe287a",
+        "pinky_middle.STL": "5a67a4840294f79a64b143e1cba9131811342df8c735f817708dd106699c6480",
+        "pinky_proximal.STL": "5fce82ec63ecba86c656edbba8b17c5b44d51aa78df0ddb9657a465f89872206",
+        "ring_distal.STL": "c82b0efd00e191a019927cf5590135f8b4d9b2c9228abfb68b12f3e0257c42aa",
+        "ring_metacarpals.STL": "c90a028bf7a5da221a92d886a65cde79cf5641ff82eccd65bd6b982e17df912d",
+        "ring_middle.STL": "191ddee09524ed6f7ebd447cf30fb85f894969ba161fc8c0059b6e97f70319f1",
+        "ring_proximal.STL": "6a49d3ee8360028022c2ba7435ffb35fb19ffaaa3c73ddba5da16b106d86857c",
+        "thumb_distal.STL": "0812eea8d86179c70f00070e3142595e1b5cea231a5c606c78744041d7acd9ba",
+        "thumb_metacarpals.STL": "7bcb58b906bcff02d8de04f0ac90dbe6bf318cdbda52988787808b50f491d8f7",
+        "thumb_metacarpals_base1.STL": "fa50f9021ae593bb37b95472a999215574ae56f63fdc5ff6edfd74b298826059",
+        "thumb_metacarpals_base2.STL": "316ab10d2dae65040a78f85182635ea3b7b1f57859ef0b568ccee58d88d58129",
+        "thumb_proximal.STL": "e41ea39ce8cb6673fc33b3e33e0fe2af9e82158006fccf6355ee3e49bfc5db8b"
+      }
+    },
+    "right": {
+      "urdf": "L25/right/linkerhand_l25_right.urdf",
+      "urdf_sha256": "a1562d64fa79ce295656fbb36f70ee8b6b43b6bbb4d3aafcc845868fac4e7ab6",
+      "meshes": "L25/right/meshes",
+      "mesh_sha256": {
+        "hand_base_link.STL": "79e36d4c7e9282c79601976d41144557d1928810202589e31bed335f3d308cd1",
+        "index_distal.STL": "324aa4b852e0c469bfc0c0bb9b19e0ccffc7dcb401d6a678481340588465fa26",
+        "index_metacarpals.STL": "106ad58d52420c3216ccb87865f55062d4b4b558078dda95210a085a9bbe277c",
+        "index_middle.STL": "27f9ccd91c5bdb1f6a1c42aeee4ab79e7e0aaf1e124a36999c75715b70d0aee6",
+        "index_proximal.STL": "d4f85e69dd94d56bdc4646c945ca8a237c652fd5dffba86c7b9ce1d8067ae8e1",
+        "middle_distal.STL": "688be3d9dd7fda49a8f9dbba824fedef5cf427c94e2e9e1ea96834eafbf6945a",
+        "middle_metacarpals.STL": "65bc65257a01e0ccd284dfdf3b2a66f2a865bf80faeb4da746cd1fd05114fe40",
+        "middle_middle.STL": "600b8e7486abc8a2707a5ecc66d4b5bea1dc0895c7173e911ba994f5cac30c10",
+        "middle_proximal.STL": "edd3af02319cd4a3b4e07a6f5d33d501887d5ab78625489254f289785b6f57e1",
+        "pinky_distal.STL": "3b22871d948ef80447f93866af3643ffa87cb22c1c172750fca9357f3aaa46de",
+        "pinky_metacarpals.STL": "b63d10a0e18af0169c75b85eb740c1f25123f6c4c5be0c5368afc65e8c73771f",
+        "pinky_middle.STL": "c6696bfcd2dbef8f248f86a6f45a90d5ba7b40e11cdb13a86b96347240a7b751",
+        "pinky_proximal.STL": "311ce029c4972530d3b234307f4ea6ca1789577c2786d56f969a5dfac2ef6a57",
+        "ring_distal.STL": "fca7bf31fa3f377110d31f7623e27f8c7845faedbdca7c09f98c94a28867bd69",
+        "ring_metacarpals.STL": "11797279afee7f856e472755d3a96593baea659d2ec0014edb02006ae48b5d71",
+        "ring_middle.STL": "2b3a0815e8daf95e76c9f54f84c13709a3951aa44ec6bb863facf60ba32c3c16",
+        "ring_proximal.STL": "168df91e5a5643a899556f96ca3f3b7fe8a3349436be42dfb5632c0d524f9a47",
+        "thumb_distal.STL": "026dd2fac43c4461c5a90561ef29039f4a08802c0e47e5c422ecac2f34babe1e",
+        "thumb_metacarpals.STL": "0a82998ece3c784bba7861b850d00ed483d93434f94f72c6298fea0917e328ca",
+        "thumb_metacarpals_base1.STL": "8416e5f826f12c4597754fbe3052983635345a76e3d98a4cdbc38ed363a9da78",
+        "thumb_metacarpals_base2.STL": "a5679a28a612ab6aa62a4f7fa1c67be42f807bba7c2ca00ba062ca2e4ef0070d",
+        "thumb_proximal.STL": "4cd7d6a283d2e5c3f6dfbd88aa1e18f9f481375d1e6b47f2c373a285184b123d"
+      }
+    }
+  },
+  "license_file": {
+    "path": "LICENSE",
+    "sha256": "4249df1514f79659a7728b0afc7e514f12524e036a42b15723b5c72f999e7481"
+  }
+}

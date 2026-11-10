@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "color_space": "sRGB",
+  "provenance": "Estimated from four photographs of a LinkerHand G20 left hand under indoor lighting (2026-11-10). Values are visual estimates, not measured reflectance.",
+  "materials": {
+    "shell_silver": {"hex": "#b0b2b6", "metallic": 0.5, "roughness": 0.35,
+      "parts": "Pearl-silver painted shell: palm and dorsal housing, dorsal cover, finger dorsal covers, thumb shells, thumb-root cover"},
+    "rubber_black": {"hex": "#1e1f21", "metallic": 0.0, "roughness": 0.82,
+      "parts": "Matte black rubber: diamond-textured palm pad, ribbed finger and thumb pads, dorsal teardrop inserts"},
+    "steel_link": {"hex": "#80848a", "metallic": 1.0, "roughness": 0.22,
+      "parts": "Stainless linkage: finger mount lugs, metacarpal brackets, middle-segment frames, distal link plates, thumb pins and bearings"},
+    "steel_dark": {"hex": "#4a4d50", "metallic": 0.85, "roughness": 0.42,
+      "parts": "Dark steel plates inside the thumb root, mostly hidden"},
+    "wrist_aluminium": {"hex": "#cccfd2", "metallic": 1.0, "roughness": 0.25,
+      "parts": "Aluminium wrist mounting disc"}
+  }
+}

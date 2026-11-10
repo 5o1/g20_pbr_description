@@ -1,0 +1,23 @@
+g20_pbr_description
+Copyright 2026 5o1
+
+This package is an unofficial derivative of LinkerHand robot description files.
+It is not affiliated with or endorsed by LinkerHand.
+
+Upstream work:
+  LinkerHand URDF (https://github.com/linker-bot/linkerhand-urdf),
+  commit 49f26021b0a91ff5c33150df22970c07bb548672, directory L25/.
+  Copyright 2025 LinkerHand,Ltd. Licensed under the Apache License, Version 2.0.
+  LinkerHand's G20 uses this L25 geometry.
+
+Modifications (2026-11-10, 5o1):
+  - Visual meshes split by solid body into five materials (painted shell, rubber
+    pads, stainless linkage, dark internal steel, aluminium wrist disc).
+  - Visual meshes re-exported as GLB and OBJ with smoothed vertex normals.
+  - PBR material values estimated from photographs of a G20 hand.
+  - Robot names changed to g20_pbr_left / g20_pbr_right; mesh paths changed.
+  - MuJoCo models generated from the URDFs; URDF mimic joints expressed as
+    MuJoCo joint equality constraints; inertia tensors that MuJoCo rejects
+    (A + B < C) balanced by MuJoCo's balanceinertia in the MJCF only.
+  In the URDFs, joint definitions, inertial properties and collision meshes are
+  unchanged.

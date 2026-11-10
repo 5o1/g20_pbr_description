@@ -1,0 +1,52 @@
+{
+ "left": {
+  "structure_equal": {
+   "": true,
+   "_basic": true,
+   "ros": true,
+   "ros_basic": true
+  },
+  "max_visual_area_error": 4.0214599286957726e-07,
+  "materials_known": true,
+  "max_fk_error": 0.0,
+  "pybullet_joints": 21,
+  "upstream_joints": 21,
+  "mujoco": {
+   "nbody": 23,
+   "njnt": 21,
+   "neq": 5,
+   "visual_geoms": 55,
+   "visual_geoms_expected": 55,
+   "max_body_position_error_m": 1.5675344778007672e-07
+  },
+  "sapien": {
+   "palette_in_render": true,
+   "distinct_materials": 5
+  }
+ },
+ "right": {
+  "structure_equal": {
+   "": true,
+   "_basic": true,
+   "ros": true,
+   "ros_basic": true
+  },
+  "max_visual_area_error": 2.7214752338747895e-07,
+  "materials_known": true,
+  "max_fk_error": 0.0,
+  "pybullet_joints": 21,
+  "upstream_joints": 21,
+  "mujoco": {
+   "nbody": 23,
+   "njnt": 21,
+   "neq": 5,
+   "visual_geoms": 55,
+   "visual_geoms_expected": 55,
+   "max_body_position_error_m": 8.645921467041467e-08
+  },
+  "sapien": {
+   "palette_in_render": true,
+   "distinct_materials": 5
+  }
+ }
+}
