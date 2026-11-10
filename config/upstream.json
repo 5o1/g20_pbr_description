@@ -3,7 +3,7 @@
   "commit": "49f26021b0a91ff5c33150df22970c07bb548672",
   "license": "Apache-2.0",
   "copyright": "Copyright 2025 LinkerHand,Ltd.",
-  "note": "LinkerHand's G20 uses the L25 geometry: the G20 URDF and meshes delivered with a G20 station match L25/ at this commit byte for byte, apart from the robot name.",
+  "note": "LinkerHand's G20 uses the L25 geometry: the URDF and meshes shipped with LinkerHand G20 hardware match L25/ at this commit byte for byte, apart from the robot name.",
   "hands": {
     "left": {
       "urdf": "L25/left/linkerhand_l25_left.urdf",

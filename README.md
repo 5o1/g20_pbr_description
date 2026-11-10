@@ -68,7 +68,7 @@ Known limits:
 
 ## Source
 
-LinkerHand G20 uses the L25 geometry from [linker-bot/linkerhand-urdf](https://github.com/linker-bot/linkerhand-urdf), commit `49f2602` (`L25/left`, `L25/right`). The G20 files delivered with a G20 station match these byte for byte, apart from the robot name. Every upstream file is pinned by SHA256 in `config/upstream.json` and verified before building.
+LinkerHand G20 uses the L25 geometry from [linker-bot/linkerhand-urdf](https://github.com/linker-bot/linkerhand-urdf), commit `49f2602` (`L25/left`, `L25/right`). The URDF and meshes shipped with LinkerHand G20 hardware match these byte for byte, apart from the robot name. Every upstream file is pinned by SHA256 in `config/upstream.json` and verified before building.
 
 ## Build and validate
 

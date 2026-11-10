@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>g20_pbr_description</name>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <description>LinkerHand G20 left and right hand descriptions with per-material PBR visuals (unofficial).</description>
   <maintainer email="assanekowww@gmail.com">5o1</maintainer>
   <license>Apache-2.0</license>
